@@ -1,0 +1,37 @@
+
+[
+    '{{repeat(5)}}',
+    {
+      name: '{{firstName("female")}}',
+      email: '{{email([random])}}',
+      Gender: 'male',    
+      Designation: 'teacher',
+      Password: 'password',    
+      CreatedAt: '{{date(new Date(2017,0,1), new Date(2017, 7, 31), "YYYY-MM-dd")}}',
+      LastActive: function(){return this.CreatedAt; },   
+      Photos: [
+          {
+            url: function(num) {
+            return 'https://randomuser.me/api/portraits/women/' + num.integer(1,99) + '.jpg';
+          },
+          isMain: true,
+          CreatedAt: '{{date(new Date(2017,0,1), new Date(2017, 7, 31), "YYYY-MM-dd")}}'
+        }
+      ],
+      phoneNumber : [
+        {
+          userPhoneAll :  Math.floor((Math.random() * 1000) + 1)
+        }
+      ],
+      UserDetails : [
+        {
+            DateOfBirth: '{{date(new Date(1950,0,1), new Date(1999, 11, 31), "YYYY-MM-dd")}}',
+          "FatherName": '{{firstName("male")}}',
+          "MotherName": '{{firstName("female")}}',
+          CreatedAt: '{{date(new Date(2017,0,1), new Date(2017, 7, 31), "YYYY-MM-dd")}}'
+        }
+      ]
+      
+      
+    }
+  ]

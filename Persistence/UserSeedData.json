@@ -1,0 +1,293 @@
+[
+   {
+      "name": "Roberson",
+      "email": "francescalane@noralex.com",
+      "Gender": "male",
+      "Designation": "teacher",
+      "Password": "password",
+      "CreatedAt": "2017-08-12",
+      "LastActive": "2017-08-12",
+      "Photos": [
+         {
+            "url": "https://randomuser.me/api/portraits/men/74.jpg",
+            "isMain": true,
+            "CreatedAt": "2017-04-29"
+         }
+      ],
+      "phoneNumber": [
+         {
+            "userPhoneAll": 714
+         }
+      ],
+      "UserDetails": [
+         {
+            "DateOfBirth": "1966-12-02",
+            "FatherName": "Mayer",
+            "MotherName": "Jeannie",
+            "CreatedAt": "2017-05-18"
+         }
+      ]
+   },
+   {
+      "name": "Carrillo",
+      "email": "daughertydonovan@furnigeer.com",
+      "Gender": "male",
+      "Designation": "teacher",
+      "Password": "password",
+      "CreatedAt": "2017-07-03",
+      "LastActive": "2017-07-03",
+      "Photos": [
+         {
+            "url": "https://randomuser.me/api/portraits/men/22.jpg",
+            "isMain": true,
+            "CreatedAt": "2017-04-03"
+         }
+      ],
+      "phoneNumber": [
+         {
+            "userPhoneAll": 714
+         }
+      ],
+      "UserDetails": [
+         {
+            "DateOfBirth": "1998-10-14",
+            "FatherName": "Bowen",
+            "MotherName": "Dina",
+            "CreatedAt": "2017-07-08"
+         }
+      ]
+   },
+   {
+      "name": "Shields",
+      "email": "deckerwilcox@netility.com",
+      "Gender": "male",
+      "Designation": "teacher",
+      "Password": "password",
+      "CreatedAt": "2017-05-25",
+      "LastActive": "2017-05-25",
+      "Photos": [
+         {
+            "url": "https://randomuser.me/api/portraits/men/52.jpg",
+            "isMain": true,
+            "CreatedAt": "2017-03-17"
+         }
+      ],
+      "phoneNumber": [
+         {
+            "userPhoneAll": 714
+         }
+      ],
+      "UserDetails": [
+         {
+            "DateOfBirth": "1983-01-03",
+            "FatherName": "Hester",
+            "MotherName": "Neva",
+            "CreatedAt": "2017-05-12"
+         }
+      ]
+   },
+   {
+      "name": "Shepherd",
+      "email": "singletonsims@microluxe.com",
+      "Gender": "male",
+      "Designation": "teacher",
+      "Password": "password",
+      "CreatedAt": "2017-07-17",
+      "LastActive": "2017-07-17",
+      "Photos": [
+         {
+            "url": "https://randomuser.me/api/portraits/men/77.jpg",
+            "isMain": true,
+            "CreatedAt": "2017-03-05"
+         }
+      ],
+      "phoneNumber": [
+         {
+            "userPhoneAll": 714
+         }
+      ],
+      "UserDetails": [
+         {
+            "DateOfBirth": "1997-03-08",
+            "FatherName": "Conway",
+            "MotherName": "Joanne",
+            "CreatedAt": "2017-06-16"
+         }
+      ]
+   },
+   {
+      "name": "Whitley",
+      "email": "lesacontreras@pharmacon.com",
+      "Gender": "male",
+      "Designation": "teacher",
+      "Password": "password",
+      "CreatedAt": "2017-02-05",
+      "LastActive": "2017-02-05",
+      "Photos": [
+         {
+            "url": "https://randomuser.me/api/portraits/men/52.jpg",
+            "isMain": true,
+            "CreatedAt": "2017-07-24"
+         }
+      ],
+      "phoneNumber": [
+         {
+            "userPhoneAll": 714
+         }
+      ],
+      "UserDetails": [
+         {
+            "DateOfBirth": "1976-03-11",
+            "FatherName": "Kline",
+            "MotherName": "Cecelia",
+            "CreatedAt": "2017-07-03"
+         }
+      ]
+   },   
+      {
+         "name": "Susana",
+         "email": "mitzirobinson@equitox.com",
+         "Gender": "male",
+         "Designation": "teacher",
+         "Password": "password",
+         "CreatedAt": "2017-04-12",
+         "LastActive": "2017-04-12",
+         "Photos": [
+            {
+               "url": "https://randomuser.me/api/portraits/women/86.jpg",
+               "isMain": true,
+               "CreatedAt": "2017-03-16"
+            }
+         ],
+         "phoneNumber": [
+            {
+               "userPhoneAll": 184
+            }
+         ],
+         "UserDetails": [
+            {
+               "DateOfBirth": "1951-02-06",
+               "FatherName": "Vargas",
+               "MotherName": "Dionne",
+               "CreatedAt": "2017-02-21"
+            }
+         ]
+      },
+      {
+         "name": "Stephanie",
+         "email": "sandyblankenship@quonata.com",
+         "Gender": "male",
+         "Designation": "teacher",
+         "Password": "password",
+         "CreatedAt": "2017-02-05",
+         "LastActive": "2017-02-05",
+         "Photos": [
+            {
+               "url": "https://randomuser.me/api/portraits/women/81.jpg",
+               "isMain": true,
+               "CreatedAt": "2017-07-06"
+            }
+         ],
+         "phoneNumber": [
+            {
+               "userPhoneAll": 184
+            }
+         ],
+         "UserDetails": [
+            {
+               "DateOfBirth": "1969-01-25",
+               "FatherName": "Owens",
+               "MotherName": "Jacquelyn",
+               "CreatedAt": "2017-05-20"
+            }
+         ]
+      },
+      {
+         "name": "Gloria",
+         "email": "brigittealvarado@geekol.com",
+         "Gender": "male",
+         "Designation": "teacher",
+         "Password": "password",
+         "CreatedAt": "2017-03-29",
+         "LastActive": "2017-03-29",
+         "Photos": [
+            {
+               "url": "https://randomuser.me/api/portraits/women/91.jpg",
+               "isMain": true,
+               "CreatedAt": "2017-02-16"
+            }
+         ],
+         "phoneNumber": [
+            {
+               "userPhoneAll": 184
+            }
+         ],
+         "UserDetails": [
+            {
+               "DateOfBirth": "1994-03-02",
+               "FatherName": "Carpenter",
+               "MotherName": "Tania",
+               "CreatedAt": "2017-07-13"
+            }
+         ]
+      },
+      {
+         "name": "Rachelle",
+         "email": "gertrudehouston@motovate.com",
+         "Gender": "male",
+         "Designation": "teacher",
+         "Password": "password",
+         "CreatedAt": "2017-02-17",
+         "LastActive": "2017-02-17",
+         "Photos": [
+            {
+               "url": "https://randomuser.me/api/portraits/women/14.jpg",
+               "isMain": true,
+               "CreatedAt": "2017-05-26"
+            }
+         ],
+         "phoneNumber": [
+            {
+               "userPhoneAll": 184
+            }
+         ],
+         "UserDetails": [
+            {
+               "DateOfBirth": "1950-09-22",
+               "FatherName": "Montgomery",
+               "MotherName": "Luz",
+               "CreatedAt": "2017-03-13"
+            }
+         ]
+      },
+      {
+         "name": "Marguerite",
+         "email": "charmaineodom@quiltigen.com",
+         "Gender": "male",
+         "Designation": "teacher",
+         "Password": "password",
+         "CreatedAt": "2017-06-26",
+         "LastActive": "2017-06-26",
+         "Photos": [
+            {
+               "url": "https://randomuser.me/api/portraits/women/76.jpg",
+               "isMain": true,
+               "CreatedAt": "2017-02-13"
+            }
+         ],
+         "phoneNumber": [
+            {
+               "userPhoneAll": 184
+            }
+         ],
+         "UserDetails": [
+            {
+               "DateOfBirth": "1989-12-26",
+               "FatherName": "Craig",
+               "MotherName": "Winnie",
+               "CreatedAt": "2017-03-18"
+            }
+         ]
+      }
+   
+]
