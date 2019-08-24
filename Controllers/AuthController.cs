@@ -34,7 +34,7 @@ namespace SchoolApi.Controllers
 
             if (loginCheck == null)
                 return Unauthorized();
-
+        
 
             var tokenHandler = new JwtSecurityTokenHandler();
             var key = Encoding.ASCII.GetBytes(_config.GetSection("AppSettings:Token").Value);

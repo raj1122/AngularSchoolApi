@@ -62,23 +62,21 @@ namespace SchoolApi.Repository
         {
             using (var hmac = new System.Security.Cryptography.HMACSHA512())
             {
-                passwordSalt = hmac.Key;
-                passwordHash = hmac.ComputeHash(System.Text.Encoding.UTF8.GetBytes(password));
+               passwordSalt = hmac.Key;
+               passwordHash = hmac.ComputeHash(System.Text.Encoding.UTF8.GetBytes(password));
             }
         }
 
         private bool verifyPasswordHash(string pass, byte[] passwordHash, byte[] passwordSalt)
         {
-            using (var hmac = new System.Security.Cryptography.HMACSHA512(passwordSalt))
-            {                
-                var computedHash = hmac.ComputeHash(System.Text.Encoding.UTF8.GetBytes(pass));
-                for (int i = computedHash.Length; i < computedHash.Length; i++)
-                {
-                    if(computedHash[i] != passwordHash[i])
-                        return false;
-                }
-                
-            }
+           using (var hmac = new System.Security.Cryptography.HMACSHA512(passwordSalt))
+           {
+               var computedHash = hmac.ComputeHash(System.Text.Encoding.UTF8.GetBytes(pass));
+               for (int i = 0; i < computedHash.Length; i++)
+               {
+                   if (computedHash[i] != passwordHash[i]) return false;
+               }
+           }
 
             return true;
             
