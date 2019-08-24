@@ -1,3 +1,4 @@
+import { AuthService } from '../../../shared/';
 import { Component, OnInit } from '@angular/core';
 import { Router, NavigationEnd } from '@angular/router';
 import { TranslateService } from '@ngx-translate/core';
@@ -10,7 +11,9 @@ import { TranslateService } from '@ngx-translate/core';
 export class HeaderComponent implements OnInit {
     public pushRightClass: string;
 
-    constructor(private translate: TranslateService, public router: Router) {
+    constructor(private translate: TranslateService, 
+        public router: Router,
+        private authServices: AuthService) {
 
         this.router.events.subscribe(val => {
             if (
@@ -43,6 +46,7 @@ export class HeaderComponent implements OnInit {
     }
 
     onLoggedout() {
+        this.authServices.logout();
         localStorage.removeItem('isLoggedin');
     }
 
