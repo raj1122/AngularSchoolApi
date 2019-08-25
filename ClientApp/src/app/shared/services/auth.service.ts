@@ -3,7 +3,6 @@ import { HttpClient, HttpHeaders } from '@angular/common/http';
 
 
 import { environment } from '../../../environments/environment';
-import { JwtHelper, tokenNotExpired} from 'angular2-jwt';
 import { JwtHelperService } from '@auth0/angular-jwt';
 import { map} from 'rxjs/operators';
 import { pipe} from 'rxjs';

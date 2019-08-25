@@ -4,6 +4,57 @@
             <i class="fa fa-fw fa-dashboard"></i>&nbsp;
             <span>{{ 'Dashboard' | translate }}</span>
         </a>
+
+
+        <a [routerLink]="['/profile']" [routerLinkActive]="['router-link-active']" class="list-group-item">
+            <i class="fa fa-fw fa-bar-chart-o"></i>&nbsp;
+            <span>{{ 'Profile' | translate }}</span>
+        </a>
+        <a [routerLink]="['/deleteaccount']" [routerLinkActive]="['router-link-active']" class="list-group-item">
+            <i class="fa fa-fw fa-bar-chart-o"></i>&nbsp;
+            <span>{{ 'Delete Account' | translate }}</span>
+        </a>      
+    <a [routerLink]="['/attendance']" [routerLinkActive]="['router-link-active']" class="list-group-item">
+            <i class="fa fa-fw fa-bar-chart-o"></i>&nbsp;
+            <span>{{ 'Attendance' | translate }}</span>
+        </a> 
+        <a [routerLink]="['/regattendance']" [routerLinkActive]="['router-link-active']" class="list-group-item">
+            <i class="fa fa-fw fa-bar-chart-o"></i>&nbsp;
+            <span>{{ 'Register Attendance' | translate }}</span>
+        </a>
+        <a [routerLink]="['/searchstudent']" [routerLinkActive]="['router-link-active']" class="list-group-item">
+            <i class="fa fa-fw fa-bar-chart-o"></i>&nbsp;
+            <span>{{ 'Search Student' | translate }}</span>
+        </a>
+        <a [routerLink]="['/regdesignation']" [routerLinkActive]="['router-link-active']" class="list-group-item">
+            <i class="fa fa-fw fa-bar-chart-o"></i>&nbsp;
+            <span>{{ 'Register Designation' | translate }}</span>
+        </a>       
+        <div class="nested-menu">
+            <a class="list-group-item" (click)="addExpandClass('pages')">
+                <i class="fa fa-plus"></i>&nbsp;
+                <span>{{ 'Leave' | translate }}</span>
+            </a>
+            <li class="nested" [class.expand]="showMenu === 'pages'">
+                <ul class="submenu">
+                    <li>
+                        <a [routerLink]="['/leave']" [routerLinkActive]="['router-link-active']" >
+                            <i class="fa fa-monument"></i>&nbsp;
+                            <span>{{ 'Apply Leave' | translate }}</span>
+                        </a>
+                    </li>
+                    <li>
+                        <a [routerLink]="['/leave']" [routerLinkActive]="['router-link-active']" >
+                            <i class="fa fa-monument"></i>&nbsp;
+                            <span>{{ 'Leave Status' | translate }}</span>
+                        </a>
+                    </li>                   
+                </ul>
+            </li>
+        </div>
+
+
+
         <a [routerLink]="['/charts']" [routerLinkActive]="['router-link-active']" class="list-group-item">
             <i class="fa fa-fw fa-bar-chart-o"></i>&nbsp;
             <span>{{ 'Charts' | translate }}</span>
@@ -28,7 +79,7 @@
             <i class="fa fa-th-list"></i>&nbsp;
             <span>{{ 'Component' | translate }}</span>
         </a>
-        <div class="nested-menu">
+        <!-- <div class="nested-menu">
             <a class="list-group-item" (click)="addExpandClass('pages')">
                 <i class="fa fa-plus"></i>&nbsp;
                 <span>{{ 'Menu' | translate }}</span>
@@ -46,24 +97,18 @@
                             <i class="fa fa-monument"></i>&nbsp;
                             <span>{{ 'Submenu' | translate }}</span>
                         </a>
-                    </li>
-                    <li>
-                        <a href="javascript:void(0)">
-                            <i class="fa fa-monument"></i>&nbsp;
-                            <span>{{ 'Submenu' | translate }}</span>
-                        </a>
-                    </li>
+                    </li>                   
                 </ul>
             </li>
-        </div>
-        <a [routerLink]="['/blank-page']" [routerLinkActive]="['router-link-active']" class="list-group-item">
+        </div> -->
+        <!-- <a [routerLink]="['/blank-page']" [routerLinkActive]="['router-link-active']" class="list-group-item">
             <i class="fa fa-file-o"></i>&nbsp;
             <span>{{ 'Blank Page' | translate }}</span>
         </a>
         <a href="http://www.strapui.com/" class="list-group-item">
             <i class="fa fa-caret-down"></i>&nbsp;
             <span>{{ 'More Themes' | translate }}</span>
-        </a>
+        </a> -->
 
         <div class="header-fields">
             <a (click)="rltAndLtr()" class="list-group-item">

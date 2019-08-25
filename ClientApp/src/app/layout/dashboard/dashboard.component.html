@@ -32,34 +32,32 @@
     <ngb-alert [type]="alert.type" (close)="closeAlert(alert)" *ngFor="let alert of alerts">{{ alert.message }}</ngb-alert>
     <hr />
     <div class="row">
-        <!-- <div class="col-lg-8">
+        <div class="col-lg-8">
             <div class="card card-default">
                 <div class="card-header">
                     <i class="fa fa-clock-o fa-fw"></i> Responsive Timeline
-                </div> -->
+                </div>
                 <!-- /.card-header -->
-                <!-- <app-timeline></app-timeline> -->
+                <app-timeline></app-timeline>
                 <!-- /.card-body -->
-            <!-- </div> -->
+            </div>
             <!-- /.card -->
-        <!-- </div> -->
+        </div>
         <!-- /.col-lg-8 -->
-
-        <!-- commented -->
-        <!-- <div class="col-lg-4">
+        <div class="col-lg-4">
             <div class="card card-default mb-3">
                 <div class="card-header">
                     <i class="fa fa-bell fa-fw"></i> Notifications card
-                </div> -->
+                </div>
                 <!-- /.card-header -->
-                <!-- <app-notification></app-notification> -->
+                <app-notification></app-notification>
                 <!-- /.card-body -->
-            <!-- </div> -->
+            </div>
             <!-- /.card -->
 
-            <!-- <app-chat></app-chat> -->
+            <app-chat></app-chat>
             <!-- /.card .chat-card -->
-        <!-- </div> -->
+        </div>
         <!-- /.col-lg-4 -->
     </div>
 </div>
